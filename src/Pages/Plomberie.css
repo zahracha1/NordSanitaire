@@ -1,0 +1,150 @@
+.contact2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./../imgs/plp2.jpg);
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  height: 660px;
+  overflow: hidden;
+  padding: 25px 0px;
+  margin-top: 80px;
+}
+
+.contact2 h1 {
+  color: rgb(218, 200, 39);
+  align-content: center;
+  text-align: center;
+  padding-top: 170px;
+  font-size: 60px;
+  margin-top: 50px;
+  font-style: italic;
+}
+
+.contact2 h3 {
+  color: #e1e1e1;
+  align-content: center;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 40px;
+  margin-top: -90px;
+  font-style: italic;
+}
+
+.styled1 {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1.2rem;
+  margin-left: 15px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(230, 218, 111);
+  background-image: linear-gradient(
+    to top left,
+    rgba(33, 33, 33, 0.2),
+    rgba(53, 53, 53, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(47, 47, 47, 0.6);
+  transition: 0s ease;
+}
+
+.styled1:hover {
+  background-color: rgb(254, 232, 29);
+}
+
+.container-about-us3 .row {
+  padding-left: 60px;
+
+  height: 500px;
+}
+
+.container-about-us3 h1,
+.section-produit h1,
+.adresse h2 {
+  color: black;
+  font-size: 40px;
+  line-height: 50px;
+  font-family: Verdana, sans-serif;
+  width: 100%;
+  margin-top: 5.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.container-about-us3 p {
+  font-size: 22px;
+  padding-left: 20px;
+  font: weight 300px;
+  color: black;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.container-about-us3 p span {
+  color: rgb(246, 227, 57);
+  font-size: 33px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+}
+.about-us .row .texte {
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 565px) {
+  .contact2 {
+    margin: 0;
+  }
+  .contact2 h1 {
+    margin-top: 20%;
+    font-size: 40px;
+  }
+
+  .contact2 h3 {
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 2px;
+  }
+
+  .texte3 {
+    display: none;
+  }
+
+  .about-us3 .container-about-us3 .row {
+    margin: 0%;
+    padding: 0%;
+
+    margin-bottom: 30rem;
+    margin-top: -15rem;
+  }
+  #carouselExampleControls2 img {
+    height: 30%;
+  }
+  #carouselExampleControls2 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #carouselExampleControls1 img {
+    height: 30%;
+  }
+  #carouselExampleControls img {
+    height: 30%;
+  }
+  .about-us3 .container-about-us3 .row .texte {
+    padding: 3%;
+    font-size: 18px;
+
+    margin-top: 13%;
+  }
+
+  .about-us .container-about-us2 .texte {
+    font-size: 18px;
+  }
+  .cont p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,209 @@
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./../imgs/eeee2.jpg);
+  background-size: cover;
+  max-width: 100%;
+  text-align: center;
+  height: 670px;
+  overflow: hidden;
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 45px;
+  padding: 0;
+}
+
+.contnent h5 {
+  color: #fff;
+  font-family: merienda;
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+
+  margin-top: 25px;
+  margin-left: -8000px;
+  margin-right: -6000px;
+  padding-left: 1850px;
+  background-color: red;
+
+}
+.header .contnent {
+  position: relative;
+  text-align: center;
+  margin-top: 300px;
+  margin-left: 350px;
+
+  
+
+}
+
+
+
+.contnent span {
+  font-size: 50px;
+  color: rgb(246, 227, 57);
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+
+}
+
+
+.contnent button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(246, 227, 57);;
+  border: 1px solid rgb(246, 227, 57);;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  margin: 20px 10px 20px 0px;
+  font-size: 15pt;
+  font-family: "Gill Sans", sans-serif;
+  align-items:center;
+  border-radius: 12px;
+  margin-left: 20px;
+  margin-right: 10px;
+ 
+}
+
+.contnent button:last-of-type {
+  background-color: #fff;
+  color: rgb(246, 227, 57);;
+}
+.contnent button:hover {
+  transition: 0.2s ease-in-out;
+}
+.contnent button:first-of-type:hover {
+  background-color: #fff;
+  color: rgb(246, 227, 57);;
+}
+.contnent button:last-of-type:hover {
+  background-color:rgb(246, 227, 57);;
+  color: #fff;
+}
+.contnent a {
+  text-decoration: none;
+  color: black;
+}
+
+.about-us {
+  height: 400px;
+}
+.about-us .row .texte {
+  margin-top: 0%;
+  padding: 0%;
+  font-size: 28px;
+
+  margin-left: 15%;
+}
+.container-about-us h1,
+.section-produit h1,
+.adresse h2 {
+  color: black;
+  font-size: 40px;
+  line-height: 50px;
+  font-family: Verdana, sans-serif;
+  width: 100%;
+  margin-top: 5.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.container-about-us p span {
+  color: rgb(246, 227, 57);
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+}
+.silder {
+  width: 100%;
+  height: 60%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  margin-bottom: 700px;
+}
+.carousel-indicators {
+  margin-bottom: 260px;
+}
+.section-produit {
+  background-color: beige;
+  margin-top: 250px;
+}
+.produit {
+  margin-top: -100px;
+}
+.section-produit p {
+  text-align: center;
+  font-size: 18px;
+}
+.section-produit p span {
+  color: rgb(246, 227, 57);
+  font-size: 25px;
+  font-weight: 700;
+}
+.carousel-inner img {
+  border-radius: 12px;
+}
+@media screen and (max-width: 500px) {
+  .about-us h1 {
+    height: 150px;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .about-us .row {
+    margin: 0%;
+    padding: 0%;
+  }
+  .about-us .row span {
+    font-size: 25px;
+  }
+  .about-us p {
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 50%;
+  }
+
+  .about-us #carouselExampleControls {
+    margin-top: 15%;
+  }
+  .about-us #carouselExampleControls img {
+    height: 30%;
+  }
+  .section-produit {
+    margin-top: 35rem;
+  }
+  .about-us .row .texte {
+    margin: 0;
+    font-size: 19px;
+    text-align: justify;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+  .cont p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .header {
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 60px;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .contnent span {
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+}
